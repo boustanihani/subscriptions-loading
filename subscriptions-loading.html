@@ -1,0 +1,23 @@
+<template name="defaultLayout">
+  <h3>Default layout</h3>
+  <nav>
+    <a href="/">Home</a>&nbsp;
+    <a href="/messages">Messages</a>&nbsp;
+  </nav>
+  <br>
+  <div style="padding:1em;border:solid;">
+    {{> yield}}
+  </div>
+</template>
+
+<template name="loadingTemplate">
+  <h3>Loading... (3 sec simulation)</h3>
+</template>
+
+<template name="home">
+  <h3>Home</h3>
+</template>
+
+<template name="messages">
+  <h3>Messages</h3>
+</template>
